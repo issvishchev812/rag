@@ -9,6 +9,7 @@ class Config:
     # API
     PROXY_API_KEY = os.environ.get('PROXY_API_KEY')
     BASE_URL = "https://api.proxyapi.ru/openai/v1"
+    API_TG = os.environ.get('API_TG')
 
     # Модели
     EMBED_MODEL = "text-embedding-3-small"
