@@ -19,7 +19,7 @@ class Config:
     # RAG параметры
     CHUNK_SIZE = 700
     CHUNK_OVERLAP = 100
-    RETRIEVER_K = 10
+    RETRIEVER_K = 5
 
     # Пути
     BASE_DIR = Path(__file__).parent
